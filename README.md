@@ -17,7 +17,7 @@ In your kickstart directory on your tftpboot server issue:
 
 Make sure the kickstart server is configured to use ks_template_name.cfg and then boot your server off your network. 
 
-<h2>Without a Kickstrt Server</h2>
+<h2>Without a Kickstart Server</h2>
 
 Alternatively, you can run these manually after the OS is installed. 
 	- Remove the top OS installation part of the kickstart file (from %post to the top) 
