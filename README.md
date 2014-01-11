@@ -23,7 +23,7 @@ Alternatively, you can run them manually after the OS is installed.
 	% cd /opt
 	% git clone git://github.com/hamhpc/kickstart.git
 	% cd kickstart
-	# edit the file, add #!/bin/bash as the top
+	# edit the file, add #!/bin/bash at the top
 	% ./ks_template_name.cfg
 
 <hr/>
