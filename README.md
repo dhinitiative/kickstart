@@ -2,12 +2,17 @@
 
 <i>Note: For use with <a href="http://www.centos.org/docs/5/html/Installation_Guide-en-US/ch-kickstart2.html">Kickstart Installations</a></i>
 
-It is assumed you already have a working Kickstart server and the ks_template_name.cfg files can be cloned to that location for server building. 
+It is assumed you already have a working Kickstart server. 
 
-In your tftpboot directory on your tftpboot server issue:
+In your kickstart directory on your tftpboot server issue:
 
+	# For a clone of all the ks templates
 	% cd /tftpboot
 	% git clone git://github.com/hamhpc/kickstart.git
+
+	# To download the templates individually
+	% cd /tftpboot/kickstart
+	% wget http://raw.github.com/hamhpc/kickstart/master/ks_islandora.cfg
 
 
 Make sure the kickstart server is configured to use ks_template_name.cfg and then boot your server off your network. 
