@@ -35,5 +35,5 @@ Alternatively, you can run these manually after the OS is installed.
 
 <h2><strong>List of Kickstart Templates:</strong></h2>
 
-<strong><i>ks_islandora.cfg</i></strong>  - Used to build an Islandora Repository server.
+<a href="http://raw.github.com/hamhpc/kickstart/master/ks_islandora.cfg"><strong><i>ks_islandora.cfg</i></strong></a>  - Used to build an Islandora Repository server.
 
