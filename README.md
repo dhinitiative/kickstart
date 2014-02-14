@@ -8,11 +8,11 @@ In your kickstart directory on your tftpboot server issue:
 
 	# For a clone of all the ks templates
 	% cd /tftpboot
-	% git clone git://github.com/hamhpc/kickstart.git
+	% git clone git://github.com/dhinitiative/kickstart.git
 
 	# To download the templates individually
 	% cd /tftpboot/kickstart
-	% wget http://raw.github.com/hamhpc/kickstart/master/ks_islandora.cfg
+	% wget http://raw.github.com/dhinitiative/kickstart/master/ks_islandora.cfg
 
 
 Make sure the kickstart server is configured to use ks_template_name.cfg and then boot your server off your network. 
@@ -35,5 +35,5 @@ Alternatively, you can run these manually after the OS is installed.
 
 <h2><strong>List of Kickstart Templates:</strong></h2>
 
-<a href="http://raw.github.com/hamhpc/kickstart/master/ks_islandora.cfg"><strong><i>ks_islandora.cfg</i></strong></a>  - Used to build an Islandora Repository server.
+<a href="http://raw.github.com/dhinitiative/kickstart/master/ks_islandora.cfg"><strong><i>ks_islandora.cfg</i></strong></a>  - Used to build an Islandora Repository server.
 
