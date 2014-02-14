@@ -26,7 +26,7 @@ Alternatively, you can run these manually after the OS is installed.
 	As an example:
 
 	% cd /opt
-	% git clone git://github.com/hamhpc/kickstart.git
+	% git clone git://github.com/dhinitiative/kickstart.git
 	% cd kickstart
 	# edit the file, add #!/bin/bash at the top
 	% ./ks_template_name.cfg
